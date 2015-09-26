@@ -8,11 +8,32 @@ Navbar = React.createClass({
 					to="/" 
 					className="navbar-tab" 
 					activeClassName="active"	
-				>home</Link>
+				>
+					home
+				</Link>
 
-				<Link className="navbar-tab">portfolio</Link>
-				<Link className="navbar-tab">about</Link>
-				<Link className="navbar-tab">contact</Link>
+				<Link 
+					to="/our-portfolio"
+					className="navbar-tab"
+					activeClassName="active"
+				>
+					portfolio
+				</Link>
+				<Link 
+					to="/about-us"
+					className="navbar-tab"
+					activeClassName="active"
+				>
+					about
+
+				</Link>
+				<Link 
+					to="/contact-us"
+					className="navbar-tab"
+					activeClassName="active"
+				>
+					contact
+				</Link>
 			</div>
 		)
 	}

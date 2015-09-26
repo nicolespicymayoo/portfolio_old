@@ -2,7 +2,7 @@
 @import 'mixins';
 
 html, body{
-	font-family: 'proxima-nova', 'lato', 'Helvetica Neue', Helvetica, Arial, Sans-serif;
+	font-family: 'proxima-nova', 'GothamLight', 'lato', 'Helvetica Neue', Helvetica, Arial, Sans-serif;
 	line-height: 1;
 	overflow: auto;
 	overflow-x: hidden;
@@ -43,10 +43,6 @@ i{
 
 textarea{
 	display: block;
-	width: 90%;
-	padding: 10px;
-	padding-bottom: 7px;
-	margin-bottom: 10px;
 	border: none;
 	border-radius: 3px;
 	line-height: 1.1;

@@ -1,0 +1,54 @@
+.contact-page{
+	width: 60%;
+	margin: 0 auto;
+}
+
+.contact-page__header{
+	padding: 70px 0px 40px;
+	text-align: center;
+	font:{
+		family: "proxima-nova";
+		size: 2.7rem;
+		weight: 100;
+	}
+}
+
+.contact-page__email-form{
+	font-size: 1.2em;
+	input{
+		display: inline-block;
+		width: 100%;
+		padding-top: 22px;
+		padding-bottom: 12px;
+		border: none;
+		border-bottom: 1px solid rgba(0,0,0,.16);
+		font-weight: 100;
+		
+	}
+	::-webkit-input-placeholder {color: rgba(0,0,0,.45);}
+		:-moz-input-placeholder {color: rgba(0,0,0,.45);}
+		::-moz-input-placeholder {color: rgba(0,0,0,.45);}
+	textarea{
+		width: 100%;
+		height: 200px;
+		padding-top: 24px;
+		border-bottom: 1px solid rgba(0,0,0,.16);
+		font-weight: 100;
+
+	}
+}
+
+.submit-contact-form-button{
+	width: 100%;
+	text-align: center;
+	margin-top: 50px;
+	padding: 10px;
+	border: 1px solid #db0202;
+	background-color: white;
+	color: #db0202;
+	border-radius: 25px;
+	&:hover{
+		background-color: #db0202;
+		color: white;
+	}
+}

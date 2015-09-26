@@ -9,6 +9,9 @@ Meteor.startup(function(){
 		<Router history={CreateBrowserHistory()}>
 			<Route component={Layout}>
 				<Route path="/" component={Homepage} />
+				<Route path="/our-portfolio" component={Portfolio} />
+				<Route path="/about-us" component={About}/>
+				<Route path="/contact-us" component={Contact}/>
 			</Route>
 		</Router>
 	)
