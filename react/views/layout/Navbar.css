@@ -1,0 +1,21 @@
+.navbar{
+	width: 100%;
+	padding: 15px;
+	color: rgba(255, 255, 255, .5);
+	background-color: black;
+}
+
+.navbar-tab{
+	display: inline-block;
+	padding-right: 32px;
+	font:{
+		family: 'proxima-nova';
+		weight: 300;
+		size: .8rem;
+	}
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	&.active{
+		color: white;
+	}
+}

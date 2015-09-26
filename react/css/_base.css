@@ -1,0 +1,60 @@
+@import './lib/normalize.css';
+@import './lib/proxima-nova.css';
+@import 'variables';
+@import 'mixins';
+
+html, body{
+	font-family: 'proxima-nova', 'GothamLight', 'lato', 'Helvetica Neue', Helvetica, Arial, Sans-serif;
+	line-height: 1;
+	overflow: auto;
+	overflow-x: hidden;
+	color: rgba(0,0,0,.9);
+	position: relative;
+	font-size: 16px;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+
+
+p{
+	margin: 0;
+}
+
+i{
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+.no-user-select{
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+.no-scroll{
+	overflow-y: hidden;
+}
+
+.link{
+	cursor: pointer;
+}
+
+textarea{
+	display: block;
+	border: none;
+	border-radius: 3px;
+	line-height: 1.1;
+		&:focus{
+			outline: none;
+		}
+}
+
+input, button{
+	&:focus{
+		outline: none;
+	}
+}
