@@ -37,7 +37,7 @@ module.exports = {
     new webpack.NoErrorsPlugin()
   ],
   resolve: {
-    extensions: ['', '.jsx', '.js', '.json']
+    extensions: ['', '.jsx', '.js', '.json', 'css']
   },
   module: {
     loaders: [
@@ -58,6 +58,7 @@ module.exports = {
       require('postcss-nested-props'),
       require('precss'),
       require('autoprefixer')({ browsers: ['> 5%'] }),
+      require('postcss-color-alpha'),
     ];
   }
 };

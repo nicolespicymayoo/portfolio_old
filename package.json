@@ -26,6 +26,7 @@
     "babel-plugin-react-transform": "^1.0.5",
     "css-loader": "^0.18.0",
     "extract-text-webpack-plugin": "^0.8.2",
+    "postcss-color-alpha": "^1.0.0",
     "postcss-loader": "^0.6.0",
     "postcss-nested-props": "^1.0.0",
     "precss": "^1.2.3",

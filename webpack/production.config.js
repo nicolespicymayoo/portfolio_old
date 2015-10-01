@@ -28,7 +28,7 @@ module.exports = {
   module: {
     loaders: [
       {
-        test: /\.js?$/,
+        test: /\.jsx?$/,
         loader: 'babel',
         query: babelSettings,
         exclude: /(node_modules|bower_components)/
@@ -39,11 +39,12 @@ module.exports = {
       }
     ]
   },
-  postcss: function () {
+    postcss: function () {
     return [
+      require('postcss-nested-props'),
       require('precss'),
-      require('postcss-input-style'),
       require('autoprefixer')({ browsers: ['> 5%'] }),
+      require('postcss-color-alpha')
     ];
   },
   plugins: [

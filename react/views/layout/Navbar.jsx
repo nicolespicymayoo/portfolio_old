@@ -15,20 +15,22 @@ export const Navbar = React.createClass({
 				</Link>
 
 				<Link
+					to="/our-services"
+					className="navbar-tab"
+					activeClassName="active"
+				>
+					services
+
+				</Link>
+
+				<Link
 					to="/our-portfolio"
 					className="navbar-tab"
 					activeClassName="active"
 				>
 					portfolio
 				</Link>
-				<Link
-					to="/about-us"
-					className="navbar-tab"
-					activeClassName="active"
-				>
-					about
-
-				</Link>
+				
 				<Link
 					to="/contact-us"
 					className="navbar-tab"
