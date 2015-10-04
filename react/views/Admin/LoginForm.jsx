@@ -2,7 +2,8 @@ import React from 'react';
 import './LoginForm.css';
 
 export const LoginForm = React.createClass({
-	loginAdmin(){
+	loginAdmin(e){
+		e.preventDefault();
 		var email = React.findDOMNode(this.refs.email).value;
 		var password = React.findDOMNode(this.refs.password).value;
 		Meteor.loginWithPassword(email, password)
