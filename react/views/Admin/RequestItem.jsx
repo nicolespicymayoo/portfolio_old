@@ -8,6 +8,7 @@ export const RequestItem = React.createClass({
 				<p>{this.props.name}</p>
 				<p>{this.props.email}</p>
 				<p className="text">{this.props.text}</p>
+				<p className="dafe">{this.props.date}</p>
 			</div>
 		)
 	}

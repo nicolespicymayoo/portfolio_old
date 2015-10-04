@@ -1,0 +1,7 @@
+.request-list-header{
+	text-align: center;
+	padding: 40px 0px 25px;
+	font:{
+		size: 2rem;
+	}
+}
