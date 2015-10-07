@@ -11,7 +11,7 @@ export const LoginForm = React.createClass({
 	render(){
 		return(
 			<div>
-				<div className="login-form-header">sup shawty</div>
+				<div className="login-form-header">log in </div>
 				<form className="login-form">
 					<input 
 						className="login-form-email"

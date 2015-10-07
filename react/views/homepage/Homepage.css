@@ -1,68 +1,151 @@
-@import "../../css/variables";
+
+.header-background-image{
+	background-image: url('/coverpic-wisconsin.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+
+.overlay{
+	background:  linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+    );
+}
 
 .homepage-header {
-	display: block;
 	width: 100%;
-	z-index: 9999;
-	padding: 180px 0px 240px;
-	background-color: black;
+	height: 600px;
+	z-index: 9000;
+	padding: 190px 0px 230px;
+	background-image: url('/coverpic-wisconsin.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+
+.title{
 	color: white;
 	text-align: center;
-	line-height: 1.32em;
+	text-shadow: 5px 5px 20px black;
+	line-height: 1.8em;
 	font:{
-		family: "proxima-nova";
-		size: 2.7rem;
-		weight: 100;
+		family: 'Petit Formal Script';
+		size: 58px;
+		weight: 700;
 	}
 }
 
-.collage-section{
-	height: 400px;
-	width: 100%;
-	p{
-		line-height: 1.7em;
-		font-size: 1.3rem;
-		margin-top: 24px;
-	}
-
-}
-
-
-.collage-header{
+.subtitle{
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	text-shadow: 3px 3px 12px black;
 	font:{
-		size: 1.9rem;
+		family: 'Lustria';
+		size: 1.3rem;
+		weight: 400;
 	}
 }
 
-
-.collage-section-details{
-	display: inline-block;
-	vertical-align: top;
-	width: 50%;
-	padding: 40px 50px;
-
-}
-
-.collage-section-image{
-	display: inline-block;
-	vertical-align: top;
-	width: 50%;
-	height: 100%;
-	img{
-		vertical-align: top;
-		height: 100%;
-	}
-}
-
-#collage__our-approach{
-	height: 400px;
-	
-}
-
-#collage__about-us{
+.prominent-box-background{
+	height: 480px;
 	width: 100%;
 	background-color: #f0f0f0;
+	border-top: 1px solid black;
 }
+
+.prominent-box{
+	top: -30px;
+	position: relative;
+	height: 120%;
+	width: 68%;
+	margin: 0px 16%;
+	overflow: auto;
+	background-color: white;
+}
+
+p{
+	line-height: 1.5em;
+	font:{
+		family: 'proxima-nova';
+		weight:.9rem;
+		color: black(.6);
+	}
+}
+
+.prominent-box-half{
+	height: 50%;
+}
+
+.reservations{
+	display: inline-block;
+	width: 36%;
+	height: 100%;
+	text-align: center;	
+	padding: 10px 35px;
+	vertical-align: top;
+}
+
+.prominent-box-title{
+	margin-bottom: 20px;
+	font:{
+		family: 'Petit Formal Script';
+		size: 2rem;
+	}
+}
+
+.prominent-box-description{
+	margin-bottom: 25px;
+}
+
+.contact-us-button{
+	padding: 8px 12px;
+	background-color: white;
+	border: 1px solid black(.2);
+	font-size: .75em;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.picture-top{
+	display: inline-block;
+	width: 64%;
+	height:100%;
+	img{
+		display: inline-block;
+		height: 100%;
+		width: 100%;
+	}
+}
+
+.picture-bottom{
+	display: inline-block;
+	width: 36%;
+	height:100%;
+	background-image: url('/fancyplate2.jpg');
+	background-position: -58px 2px;
+	overflow: hidden;
+}
+
+.about{
+	display: inline-block;
+	vertical-align: top;
+	width: 64%;
+	height:100%;
+	text-align: center;
+	padding: 10px 35px;
+}
+
+.learn-more{
+	font-size: .8rem;
+	color: black(.4);
+	text-align: right;
+}
+
+
 
 
 
