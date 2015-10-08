@@ -5,7 +5,10 @@ import './Navbar.css';
 export const Navbar = React.createClass({
 	render(){
 		return(
-			<div className="navbar clearfix">
+			<div className="navbar">
+				<div className="logo">
+					
+				</div>
 				<div className="navbar-tabs-container">
 					<Link
 						to="/"

@@ -6,7 +6,15 @@
 	background-color: black;
 }
 
+.logo{
+	display: inline-block;
+	path d{
+		fill: white;
+	}
+}
+
 .navbar-tabs-container{
+	display: inline-block;
 	float: right;
 	padding-top: 13px;
 

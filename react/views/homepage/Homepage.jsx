@@ -15,21 +15,6 @@ export const Homepage = React.createClass({
 				<div className="prominent-box-background">
 					<div className="prominent-box one">
 						<div className="prominent-box-half">
-							<div className="reservations">
-								<h3 className="prominent-box-title">Reservations</h3>
-								<p className="prominent-box-description">
-									Tell us a little bit about your 
-									restaurant and what you are looking for. We will get
-									back to you within a day.
-								</p>
-								<button className="contact-us-button">Contact Us</button>
-							</div>
-							<div className="reservations-image">
-								<img src="whiterestaourantoutside.jpg"/>
-							</div>
-						</div>
-						<div className="prominent-box-half">
-							<div className="about-image"></div>
 							<div className="about">
 								<h3 className="prominent-box-title">About</h3>
 								<p className="prominent-box-description">
@@ -40,11 +25,26 @@ export const Homepage = React.createClass({
 								</p>
 								<p className="learn-more">learn more</p>
 							</div>
+							<div className="about-image"></div>
+						</div>
+						<div className="prominent-box-half">
+							<div className="reservations-image">
+								<img src="whiterestaourantoutside.jpg"/>
+							</div>
+							<div className="reservations">
+								<h3 className="prominent-box-title">Reservations</h3>
+								<p className="prominent-box-description">
+									Tell us a little bit about your 
+									restaurant and what you are looking for. We will get
+									back to you within a day.
+								</p>
+								<button className="contact-us-button">Contact Us</button>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div className="homepage-specialties-image">
-					<h3 className="specialties-header">Our Specialties</h3>
+				<div className="homepage-image">
+					<h3 className="script-header specialties">Our Specialties</h3>
 				</div>
 				<div className="prominent-box-background two">
 					<div className="prominent-box">
@@ -74,7 +74,8 @@ export const Homepage = React.createClass({
 							<div className="specialty-box item">
 								<h4 className="specialty-box-title">Program</h4>
 								<p className="prominent-box-description">
-									
+									Take the design that you've been dreaming of and 
+									bring it to life with our full-stack programming.
 								</p>
 							</div>
 							<div className="specialty-box image"></div>
@@ -87,8 +88,98 @@ export const Homepage = React.createClass({
 						</div>
 					</div>
 				</div>
-				<div className="menu"></div>
+				<div className="homepage-image">
+				</div>
+				<div className="menu">
+					<h3 className="script-header menu">menu</h3>
+					<div className="menu-underline"></div>
+
+					<div className="menu-items-container">
+						<h4 className="menu-section-title">Appetizers</h4>
+						<div className="menu-items-column left">
+							<div className="menu-item">
+								<div className="menu-item-text">
+									<div className="menu-item-title">Calamari</div>
+									<div className="menu-item-description">This is the descripton for the menu item</div>
+								</div>
+								<div className="menu-item-price">$18</div>
+								
+							</div>
+						</div>
+						<div className="menu-items-column right">
+							<div className="menu-item">
+								<div className="menu-item-text">
+									<div className="menu-item-title">Caesar Salad</div>
+									<div className="menu-item-description">This is the descripton for the menu item</div>
+								</div>
+								<div className="menu-item-price">$18</div>
+							</div>
+						</div>
+
+						<h4 className="menu-section-title">Main Course</h4>
+						<div className="menu-items-column left">
+							<div className="menu-item">
+								<div className="menu-item-text">
+									<div className="menu-item-title">Margarita Pizza</div>
+									<div className="menu-item-description">This is the descripton for the menu item</div>
+								</div>
+								<div className="menu-item-price">$18</div>
+								<div className="menu-item-text">
+									<div className="menu-item-title">Pizza Quattro Stagione</div>
+									<div className="menu-item-description">This is the descripton for the menu item</div>
+								</div>
+								<div className="menu-item-price">$18</div>
+								<div className="menu-item-text">
+									<div className="menu-item-title">Chicken Saltimbocca</div>
+									<div className="menu-item-description">This is the descripton for the menu item</div>
+								</div>
+								<div className="menu-item-price">$18</div>
+								
+							</div>
+
+						</div>
+						<div className="menu-items-column right">
+							<div className="menu-item">
+								<div className="menu-item-text">
+									<div className="menu-item-title">Pasta Primavera</div>
+									<div className="menu-item-description">This is the descripton for the menu item</div>
+								</div>
+								<div className="menu-item-price">$18</div>
+								<div className="menu-item-text">
+									<div className="menu-item-title">Pasta Carbonara</div>
+									<div className="menu-item-description">This is the descripton for the menu item</div>
+								</div>
+								<div className="menu-item-price">$18</div>
+								<div className="menu-item-text">
+									<div className="menu-item-title">Spaghetti & Meatballs</div>
+									<div className="menu-item-description">This is the descripton for the menu item</div>
+								</div>
+								<div className="menu-item-price">$18</div>
+							</div>
+						</div>
+						<h4 className="menu-section-title">Dessert</h4>
+						<div className="menu-items-column left">
+							<div className="menu-item">
+								<div className="menu-item-text">
+									<div className="menu-item-title">Tiramisu</div>
+									<div className="menu-item-description">This is the descripton for the menu item</div>
+								</div>
+								<div className="menu-item-price">$18</div>
+								
+							</div>
+						</div>
+						<div className="menu-items-column right">
+							<div className="menu-item">
+								<div className="menu-item-text">
+									<div className="menu-item-title">Gelato</div>
+									<div className="menu-item-description">This is the descripton for the menu item</div>
+								</div>
+								<div className="menu-item-price">$18</div>
+							</div>
+						</div>
+				</div>
 			</div>
+		</div>
 		)
 	}
 });

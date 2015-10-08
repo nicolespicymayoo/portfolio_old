@@ -44,7 +44,7 @@
 	background-color: #f0f0f0;
 	border-top: 1px solid black;
 	&.two{
-		height: 412px;
+		height: 410px;
 	}
 }
 
@@ -77,16 +77,14 @@ p{
 	width: 36%;
 	height: 100%;
 	text-align: center;	
-	padding: 10px 35px;
+	padding: 25px 35px;
 	vertical-align: top;
 }
 
 .prominent-box-title{
 	margin-bottom: 20px;
-	font:{
-		family: 'Petit Formal Script';
-		size: 2rem;
-	}
+	font-family: 'Petit Formal Script';
+	font-size: 2rem;
 }
 
 .prominent-box-description{
@@ -129,18 +127,17 @@ p{
 	width: 64%;
 	height:100%;
 	text-align: center;
-	padding: 10px 35px;
+	padding: 30px 35px;
 }
 
 .learn-more{
 	font-size: .7rem;
 	color: black(.3);
-	text-align: right;
 	letter-spacing: .1em;
 	text-transform: uppercase;
 }
 
-.homepage-specialties-image{
+.homepage-image{
 	width: 100%;
 	height: 540px;
 	//background-image: url('/coverphoto4.jpg');
@@ -151,12 +148,16 @@ p{
 	border-top: 1px solid white;
 }
 
-.specialties-header{
+.script-header{
 	text-align: center;
-	padding-top: 190px;
-	font:{
-		family: 'Petit Formal Script';
-		size: 2.5rem;
+	font-family: 'Petit Formal Script';
+	font-size: 2.5rem;
+	&.specialties{
+		padding-top: 190px;
+	}
+	&.menu{
+		padding-top: 100px;
+		margin-bottom: 20px;
 	}
 }
 
@@ -166,15 +167,84 @@ p{
 	width: 25%;
 	height: 100%;
 	border: 1px solid black;
+	&.item{
+		padding: 10px 15px;
+	}
+	&.image{
+	
+	}
 }
 
 .specialty-box-title{
 	text-align: center;
 	text-transform: uppercase;
-	font:{
-		size: 1.4rem;
-	}
+	font-size: 1.4rem;
 }
+
+.menu{
+	width: 100%;
+}
+
+.menu-underline{
+	width: 60px;
+	height:2px;
+	margin: 0 auto;
+	border-bottom: 1px solid black;
+	margin-bottom: 100px;
+}
+
+.menu-items-container{
+	width: 900px;
+	margin: 0 auto;
+}
+
+.menu-section-title{
+	text-align: center;
+	text-transform: uppercase;
+	color: black(.235);
+	font-family: "Gotham-Medium";
+	font-size: 1.1rem;
+	letter-spacing: .1em;
+	padding-top: 35px;
+}
+
+.menu-items-column{
+	display: inline-block;
+	width: 50%;
+
+}
+
+.menu-item{
+	width: 100%;
+	padding: 10%;
+}
+.menu-item-text{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.menu-item-title{
+	text-transform: uppercase;
+	font-family: "Gotham-Medium";
+	font-size: 1.15rem;
+	padding: 10px 0px;
+}
+
+.menu-item-description{
+	font-size: .85rem;
+	color: black(.6);
+	padding-bottom: 40px;
+}
+
+.menu-item-price{
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+	padding: 10px 5px 10px;
+	font-family: 'Petit Formal Script';
+	font-weight: 700;
+}
+
 
 
 
