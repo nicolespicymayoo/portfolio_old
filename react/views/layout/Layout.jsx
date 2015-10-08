@@ -1,6 +1,6 @@
 import React from 'react';
 import {Navbar} from './Navbar.jsx';
-import './Layout.css';
+import '../../css/_base.css';
 
 export const Layout = React.createClass({
   render(){

@@ -1,35 +1,23 @@
 
-.header-background-image{
+
+.homepage-header {
+	width: 100%;
+	height: 550px;
+	padding: 140px 0px 230px;
 	background-image: url('/coverpic-wisconsin.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+}
+.homepage-header-img-gradien{
 
 }
 
-.overlay{
-	background:  linear-gradient(
-      rgba(0, 0, 0, 0.5), 
-      rgba(0, 0, 0, 0.5)
-    );
-}
-
-.homepage-header {
-	width: 100%;
-	height: 600px;
-	z-index: 9000;
-	padding: 190px 0px 230px;
-	background-image: url('/coverpic-wisconsin.jpg');
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-position: center;
-}
-
-.title{
+.homepage-header-title{
 	color: white;
 	text-align: center;
-	text-shadow: 5px 5px 20px black;
-	line-height: 1.8em;
+	text-shadow: 3px 5px 20px black;
+	line-height: 1.3em;
 	font:{
 		family: 'Petit Formal Script';
 		size: 58px;
@@ -37,12 +25,12 @@
 	}
 }
 
-.subtitle{
+.homepage-header-subtitle{
 	color: white;
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: .5em;
-	text-shadow: 3px 3px 12px black;
+	text-shadow: 1px 2px 5px black;
 	font:{
 		family: 'Lustria';
 		size: 1.3rem;
@@ -51,16 +39,19 @@
 }
 
 .prominent-box-background{
-	height: 480px;
+	height: 500px;
 	width: 100%;
 	background-color: #f0f0f0;
 	border-top: 1px solid black;
+	&.two{
+		height: 412px;
+	}
 }
 
 .prominent-box{
 	top: -30px;
 	position: relative;
-	height: 120%;
+	height: 111.5%;
 	width: 68%;
 	margin: 0px 16%;
 	overflow: auto;
@@ -78,6 +69,7 @@ p{
 
 .prominent-box-half{
 	height: 50%;
+	display: block;
 }
 
 .reservations{
@@ -98,6 +90,7 @@ p{
 }
 
 .prominent-box-description{
+	text-align: center;
 	margin-bottom: 25px;
 }
 
@@ -110,7 +103,7 @@ p{
 	letter-spacing: 1px;
 }
 
-.picture-top{
+.reservations-image{
 	display: inline-block;
 	width: 64%;
 	height:100%;
@@ -121,7 +114,7 @@ p{
 	}
 }
 
-.picture-bottom{
+.about-image{
 	display: inline-block;
 	width: 36%;
 	height:100%;
@@ -140,12 +133,48 @@ p{
 }
 
 .learn-more{
-	font-size: .8rem;
-	color: black(.4);
+	font-size: .7rem;
+	color: black(.3);
 	text-align: right;
+	letter-spacing: .1em;
+	text-transform: uppercase;
 }
 
+.homepage-specialties-image{
+	width: 100%;
+	height: 540px;
+	//background-image: url('/coverphoto4.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-color: #f0f0f0;
+	border-top: 1px solid white;
+}
 
+.specialties-header{
+	text-align: center;
+	padding-top: 190px;
+	font:{
+		family: 'Petit Formal Script';
+		size: 2.5rem;
+	}
+}
+
+.specialty-box{
+	display: inline-block;
+	vertical-align: top;
+	width: 25%;
+	height: 100%;
+	border: 1px solid black;
+}
+
+.specialty-box-title{
+	text-align: center;
+	text-transform: uppercase;
+	font:{
+		size: 1.4rem;
+	}
+}
 
 
 

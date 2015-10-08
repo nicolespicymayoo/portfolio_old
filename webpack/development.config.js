@@ -24,13 +24,13 @@ module.exports = {
   devtool: 'eval',
   context: path.join(__dirname, '..'),
   entry: [
-    'webpack-hot-middleware/client',
+    'webpack-hot-middleware/client?path=http://localhost:3500/__webpack_hmr',
     './react/index.jsx'
   ],
   output: {
     path: path.join(__dirname, '..', 'meteor', 'react-build-generated'),
-    filename: 'app.js',
-    publicPath: '/react-webpack-bundle/'
+    filename: 'main.js',
+    publicPath: 'http://localhost:3500/assets/'
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
