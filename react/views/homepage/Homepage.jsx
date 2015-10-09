@@ -43,10 +43,10 @@ export const Homepage = React.createClass({
 						</div>
 					</div>
 				</div>
-				<div className="homepage-image">
+				<div className="homepage-image specialties">
 					<h3 className="script-header specialties">Our Specialties</h3>
 				</div>
-				<div className="prominent-box-background two">
+				<div className="prominent-box-background small">
 					<div className="prominent-box">
 						<div className="prominent-box-half top">
 							<div className="specialty-box item">
@@ -56,9 +56,20 @@ export const Homepage = React.createClass({
 									your customers will love.
 								</p>
 							</div>
-							<div className="specialty-box image">
+							<div className="specialty-box image" id="one">
 								
 							</div>
+							<div className="specialty-box item">
+								<h4 className="specialty-box-title">Program</h4>
+								<p className="prominent-box-description">
+									Take the design that you've been dreaming of and 
+									bring it to life with our full-stack programming.
+								</p>
+							</div>
+							<div className="specialty-box image" id="two"></div>
+						</div>
+						<div className="prominent-box-half bottom">
+							<div className="specialty-box image" id="three"></div>
 							<div className="specialty-box item">
 								<h4 className="specialty-box-title">Update</h4>
 								<p className="prominent-box-description">
@@ -67,18 +78,7 @@ export const Homepage = React.createClass({
 									way, your website will get a second life. 
 								</p>
 							</div>
-							<div className="specialty-box image"></div>
-						</div>
-						<div className="prominent-box-half bottom">
-							<div className="specialty-box image"></div>
-							<div className="specialty-box item">
-								<h4 className="specialty-box-title">Program</h4>
-								<p className="prominent-box-description">
-									Take the design that you've been dreaming of and 
-									bring it to life with our full-stack programming.
-								</p>
-							</div>
-							<div className="specialty-box image"></div>
+							<div className="specialty-box image" id="four"></div>
 							<div className="specialty-box item">
 								<h4 className="specialty-box-title">Maintain</h4>
 								<p className="prominent-box-description">
@@ -88,7 +88,7 @@ export const Homepage = React.createClass({
 						</div>
 					</div>
 				</div>
-				<div className="homepage-image">
+				<div className="homepage-image menu">
 				</div>
 				<div className="menu">
 					<h3 className="script-header menu">menu</h3>
@@ -116,7 +116,7 @@ export const Homepage = React.createClass({
 							</div>
 						</div>
 
-						<h4 className="menu-section-title">Main Course</h4>
+						<h4 className="menu-section-title">Entree</h4>
 						<div className="menu-items-column left">
 							<div className="menu-item">
 								<div className="menu-item-text">
